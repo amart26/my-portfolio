@@ -1,6 +1,12 @@
+
 *{
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;  
+} 
+
+*, html {
+    scroll-behavior: smooth !important;
 }
 
 body{
@@ -9,9 +15,34 @@ body{
 }
 
 #nav-bar {
-    display: block;
-    height: 100%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content:center;
+    height: 50px;
+    background-color: #5B9279;
+    color: #EAE6E5;
+    align-items: center;
+    font-size: 1.5rem;  
 }
+
+.nav-bar-list {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    list-style: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #EAE6E5;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #EAE6E5;
+}
+
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -27,8 +58,15 @@ body{
     font-size: 8rem;
 }
 
+#profile-container {
+    scroll-behavior: smooth;
+}
+
 #profile-items{
     margin-top: 50px;
+    max-width: 500px;
+
+    
 }
 
 #hero-container {
@@ -53,15 +91,18 @@ body{
 
 .secondary-text-style {
     font-family: 'Bellota Text', sans-serif;
+    font-weight: bold;
+
 }
 
 .underline {
-    border-bottom: 5px solid #FFFFFF;
+    border-bottom: 5px solid #5b9279;
 }
 
 #title-text {
     font-size:6rem;
 }
+
 
 #title-desc {
     font-size: 2em;
@@ -75,29 +116,75 @@ body{
 }
 
 #profile-pic {
-    margin-top: 20px;
+    margin-top: 200px;
     margin-bottom: 40px;
     width: 300px;
     height:300px;
     border-radius: 100%;
     object-fit: cover;
-    border: 5px solid #EAE6E5;
+    
 }
 
 #contact-me {
     font-family: 'Bellota Text', sans-serif;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 150px;
     height: 50px;
     background-color: #12130F;
     color: #FFFFFF;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
 }
+#contact-me:hover {
+    transform: translate(0, -4px);
+    transition: .15s ease-in-out;
+}
 
 #contact-me:active {
-    transform: translate(0, -2px);
-    transition: .15s;
+    transform: translate(0, -6px);
+    transition: .15s ease-in-out;
 }
+
+#project-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background-color: #EAE6E5;
+    margin-top:  0;
+}
+
+#shadow-box {
+    background-image: url('/public/images/shadowbox.jpg');
+    background-size: 100%;
+}
+
+#shadow-box:hover {
+    background-image: url('/public/images/shadowbox.gif');
+    background-size: 100%; 
+}
+
+.project-box {
+    width: 300px;
+    height: 300px;
+    border:5px solid #12130F;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#footer{
+    font-family: 'Bellota Text', sans-serif;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #12130F;
+    color: #FFFFFF;
+}
+
+
+
 

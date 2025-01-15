@@ -10,14 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body id="main">
-    <div id="nav-bar" class="nav-bar">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos necessitatibus accusamus dolorem ratione, possimus ab vitae est laudantium corporis, velit optio quibusdam, sequi doloribus? Totam consectetur qui aliquam ab dolores!</p>
-        
+    <header>
+        <div id="nav-bar" class="nav-bar">
+            
+            
+            <ul class="nav-bar-list">
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#profile-container">About</a></li>
+                <li><a class="nav-link" href="#project-container">Projects</a></li>
+            </ul>
+        </div>
+    </header>
+            
     </div>
     <div id="hero-container" class="flex-container">
         <div class="flex-item">
             <h1 id="title-text" class="main-text-style">Hi, my name is <span class="span-style">Anthony</span><span id="type-writer" class="hidden big-text">|</span></h1>
-            <h4 id="title-desc" class="secondary-text-style">I'm a <span class="span-style underline"> Fullstack Developer</span></h4>
+            <h4 id="title-desc" class="secondary-text-style">I'm a <span class="span-style underline"> Frontend Developer</span></h4>
             <button id="contact-me">Contact Me</button>
         </div>
        
@@ -26,9 +35,33 @@
     <div id="profile-container" class="flex-container fixed-size">
         <div id="profile-items" class="flex-item">
             <img id="profile-pic" src="./images/profile-pic.jpg">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempore, eos repudiandae dolor deleniti velit repellat laboriosam odit excepturi ut doloribus accusantium similique eum illo sed tempora illum vel laborum.</p>
+            <p class="img-desc secondary-text-style">Thanks for visting my Portfolio! I am a highly motivated Frontend developer looking to make my mark in the tech industry. 
+                I graduated from highschool in 2017 and short after enlisted into the U.S. Navy. During my time in the Navy I learned many skills that
+                shape and guide my career in Frontend Development. After the Navy I began working as Private Security while persuing a Career as a MMA Fighter. I look forward to working with you!
+            </p>
         </div>
     </div>
+    
+   
+    <div id="project-container" class="flex-container fixed-size">
+        <div id="projects-items" class="flex-item">
+            <a href="https://shadowbox.onrender.com/" target="_blank"><div id="shadow-box" class="project-box"></div></a>
+        </div>
+        <div id="projects-items" class="flex-item">
+            <div id="new-project" class="project-box"></div>
+         </div>
+         <div id="projects-items" class="flex-item">
+            <div id="new-project" class="project-box"></div>
+         </div>
+    </div>
+    
+    <div id="footer" class="footer-container">
+        <div id="footer-itmes" class="flex-item">
+            <h4>Copyright @ 2025</h4>
+        </div>
+    </div>
+
+    
   
     <script src="/main.js"></script>
 </body>
