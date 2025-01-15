@@ -156,12 +156,12 @@ body{
 }
 
 #shadow-box {
-    background-image: url('/public/images/shadowbox.jpg');
+    background-image: url('/images/shadowbox.jpg');
     background-size: 100%;
 }
 
 #shadow-box:hover {
-    background-image: url('/public/images/shadowbox.gif');
+    background-image: url('/images/shadowbox.gif');
     background-size: 100%; 
 }
 
