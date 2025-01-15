@@ -1,22 +1,56 @@
+*{
+    margin: 0;
+}
 
-.flex-container {
-    display: flex;   
-    margin-top: 20%;
+body{
+    background-color: #EAE6E5;
+    margin: 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero-container {
+    padding-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .flex-item {
-    flex: 1;
+    justify-content: center;
     text-align: center;
 }
 
-.nav-bar {
-    position: fixed;
-    top: 0;
-    left: 50%;
+.span-style { 
+    color: #5B9279;
 }
 
-.nav-bar ul {
-    list-style: none;
+.main-text-style {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
+.secondary-text-style {
+    font-family: 'Bellota Text', sans-serif;
+}
 
+#title-text {
+    font-size:6rem;
+    margin-bottom: 0;
+}
+
+#title-desc {
+    font-size: 2em;
+}
+
+.fixed-size{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    justify-content: start;
+}
+
+#profile-pic {
+    width: 200px;
+}

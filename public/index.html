@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="nav-bar">
-        <ul>
-            <li>Test</li>
-            <li>Test</li>
-        </ul>
-    </div>
-    
-    <div class="flex-container">
-        <div class="flex-item intro-title">
-          <h1>Hello, my name is <span class="name-style">Anthony</span></h1>
+<body id="main">
+    <div id="hero-container" class="flex-container">
+        <div class="flex-item">
+            <h1 id="title-text" class="main-text-style">Hi, my name is <span class="span-style">Anthony</span></h1>
+            <h4 id="title-desc" class="secondary-text-style">I'm a <span class="span-style"> Fullstack Developer</span></h4>
+            <button id="contact-me">Contact Me</button>
         </div>
     </div>
+
+    <div class="flex-container fixed-size">
+        <div class="flex-item">
+            <img id="profile-pic" src="./images/profile-pic.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempore, eos repudiandae dolor deleniti velit repellat laboriosam odit excepturi ut doloribus accusantium similique eum illo sed tempora illum vel laborum.</p>
+        </div>
     </div>
+  
     
 </body>
 </html>
