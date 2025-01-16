@@ -19,9 +19,8 @@ body{
     position: fixed;
     width: 100%;
     justify-content:center;
+    background-color: transparent;
     height: 50px;
-    background-color: #5B9279;
-    color: #EAE6E5;
     align-items: center;
     font-size: 1.5rem;  
 }
@@ -29,9 +28,15 @@ body{
 .nav-bar-list {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 50px;
     list-style: none;
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav-bar-list a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #12130F;
 }
 
 .nav-link {
@@ -40,7 +45,7 @@ body{
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid #EAE6E5;
+    border-bottom: 2px solid #12130F;
 }
 
 .flex-container{
@@ -67,6 +72,10 @@ body{
     max-width: 500px;
 
     
+}
+
+#profile-items h1 {
+    margin-bottom: 0;
 }
 
 #hero-container {
@@ -116,7 +125,7 @@ body{
 }
 
 #profile-pic {
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 40px;
     width: 300px;
     height:300px;
@@ -126,7 +135,7 @@ body{
 }
 
 #contact-me {
-    font-family: 'Bellota Text', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     margin-top: 50px;
     width: 150px;
@@ -151,8 +160,11 @@ body{
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    height: 400px;
     background-color: #EAE6E5;
     margin-top:  0;
+    padding-top: 200px;
+    padding-bottom: 500px ;
 }
 
 #shadow-box {
@@ -165,12 +177,36 @@ body{
     background-size: 100%; 
 }
 
+#author-desc {
+    padding-bottom:  50px;
+}
+.text-underline{
+    border-bottom: 2px solid #12130F;
+}
+
 .project-box {
     width: 300px;
     height: 300px;
     border:5px solid #12130F;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#project-title{
+    text-align: center;
+}
+
+.div-header {
+    color: #12130F;
+}
+
+#projects-title {
+    display: block;
+    width:200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 #footer{
