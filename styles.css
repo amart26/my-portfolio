@@ -64,7 +64,11 @@ body{
 }
 
 #profile-container {
+    flex-direction: row;
+    gap: 20px;
     scroll-behavior: smooth;
+    align-items: center;
+    justify-content: center;
 }
 
 #profile-items{
@@ -161,7 +165,7 @@ body{
     justify-content: center;
     gap: 50px;
     height: 400px;
-    background-color: #EAE6E5;
+    background-color: #12130F;
     margin-top:  0;
     padding-top: 200px;
     padding-bottom: 500px ;
@@ -192,8 +196,9 @@ body{
     cursor: pointer;
 }
 
-#project-title{
+#projects-title-style{
     text-align: center;
+    color: #EAE6E5;
 }
 
 .div-header {
@@ -221,6 +226,22 @@ body{
     color: #FFFFFF;
 }
 
+.box-style {
+ background-color: #12130F;
+ padding: 20px 50px;
+ border-radius: 3px;
+ background-color: #5b9279;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+ margin-top: 200px;
+}
 
+.container-style {
+    padding: 20px;
+    background-color: #12130F;
+}
+
+@media (max-width: 800px) {
+    
+}
 
 
