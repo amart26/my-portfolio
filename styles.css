@@ -48,6 +48,16 @@ body{
     border-bottom: 2px solid #12130F;
 }
 
+#contact-container {
+    background-color: black;
+    width: 600px;
+    height: 700px;
+    z-index: 999;
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+}
+
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -85,6 +95,10 @@ body{
 #hero-container {
     padding: 250px;
    
+}
+
+.flex-hide {
+    display: none;
 }
 
 .hidden {
@@ -136,6 +150,15 @@ body{
     border-radius: 100%;
     object-fit: cover;
     
+}
+#contact-container {
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    background-color: #5B9279;
+    width: 400px;
+    height: 600px;
+    z-index: 999;
 }
 
 #contact-me {
@@ -239,6 +262,7 @@ body{
     padding: 20px;
     background-color: #12130F;
 }
+
 
 @media (max-width: 800px) {
     
